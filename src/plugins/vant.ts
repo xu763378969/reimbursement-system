@@ -1,0 +1,81 @@
+// 按需全局引入 vant组件
+import Vue from "vue";
+import {
+  Button,
+  List,
+  Cell,
+  CellGroup,
+  Tabbar,
+  TabbarItem,
+  NavBar,
+  Grid,
+  GridItem,
+  Tab,
+  Icon,
+  Tabs,
+  Field,
+  Form,
+  Picker,
+  Popup,
+  Area,
+  Uploader,
+  Toast,
+  DropdownMenu,
+  DropdownItem,
+  Stepper,
+  Checkbox,
+  CheckboxGroup,
+  IndexBar,
+  IndexAnchor,
+  Divider,
+  Calendar,
+  SwipeCell,
+  Search,
+  Popover,
+  Dialog,
+  Tag,
+  Image as VanImage,
+  RadioGroup,
+  Collapse,
+  CollapseItem,
+  Radio,
+  ActionSheet,
+  Step,
+  Cascader,
+  Steps,
+  PullRefresh
+} from "vant";
+
+Vue.use(Cascader);
+Vue.use(Button);
+Vue.use(IndexBar).use(IndexAnchor);
+Vue.use(Checkbox).use(CheckboxGroup);
+Vue.use(Collapse).use(CollapseItem);
+Vue.use(DropdownMenu).use(DropdownItem);
+Vue.use(RadioGroup).use(Radio);
+Vue.use(Cell).use(CellGroup);
+Vue.use(Step).use(Steps);
+Vue.use(List);
+Vue.use(Form);
+Vue.use(Popup);
+Vue.use(Icon);
+Vue.use(Dialog);
+Vue.use(Uploader);
+Vue.use(Tag);
+Vue.use(Area);
+Vue.use(SwipeCell);
+Vue.use(Divider); 
+Vue.use(Toast);
+Vue.use(Stepper);
+Vue.use(Popover);
+Vue.use(Search);
+Vue.use(Calendar);
+Vue.use(Field);
+Vue.use(Picker);
+Vue.use(ActionSheet);
+Vue.use(VanImage);
+Vue.use(NavBar);
+Vue.use(PullRefresh);
+Vue.use(Tabbar).use(TabbarItem);
+Vue.use(Grid).use(GridItem);
+Vue.use(Tab).use(Tabs);
